@@ -219,7 +219,109 @@ a {
 
 /* Start styling to make responsive website */
 
-@media screen and (max-width:768px) {
+@media screen and (min-width:0px) and (max-width:380px) {
+    .icon {
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-links {
+        display: none;
+        width: 100%;
+        align-items: center;
+        background-color: red;
+        color: white;
+        flex-direction: column;
+        position: absolute;
+        top: 3.5rem;
+        left: 0px;
+        transition: 0.5s ease-in;
+    }
+    .nav-links a {
+        width: 100%;
+        text-align: center;
+        border-bottom: 3px solid black
+    }
+    .nav-links a:hover {
+        transition: 0.3s ease-in;
+        background-color: aqua;
+    }
+    .about {
+        position: relative;
+        margin: 2rem;
+        /* background-color: blue; */
+    }
+    .main {
+        /* background-color: #b92b27; */
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.3rem;
+        /* padding: 2rem; */
+        margin: auto;
+    }
+    .left {
+        width: 90%;
+        /* margin-right: 10%; */
+        /* background-color: #c92b47; */
+        /* text-align: center; */
+        display: flex;
+        justify-content: start;
+        margin-right: 50px;
+    }
+    button {
+        margin: auto;
+        font-size: 20px;
+    }
+    button a {
+        color: black
+    }
+    /* .ratings {
+        background-color: #b92b27;
+    } */
+    .rate-heading {
+        font-size: 15px;
+        /* background-color: #b92b27; */
+    }
+    .right {
+        /* background-color: aqua; */
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        margin-right: 40px;
+    }
+    .right img {
+        margin-top: 1rem;
+        margin-left: 5%;
+    }
+    .card1 {
+        margin-top: 0.5rem;
+    }
+    .skills-child1 {
+        display: flex;
+        flex-direction: row;
+        /* flex-wrap: wrap; */
+        /* font-size: 10px; */
+        /* flex-direction: column; */
+        /* background-color: aqua; */
+    }
+    .ratings {
+        font-size: 15px;
+        flex-direction: row;
+        display: flex;
+    }
+    .card {
+        display: flex;
+        /* margin-left: 20%; */
+        flex-direction: column;
+        width: 100%;
+        /* background-color: #b92b27; */
+    }
+}
+
+@media screen and (min-width:381px) and (max-width:768px) {
     .icon {
         display: flex;
         flex-direction: column;
@@ -271,6 +373,17 @@ a {
     }
     button {
         margin: auto;
+        padding: 10px;
+        font-size: 20px;
+    }
+    button a {
+        color: black
+    }
+    .ratings {
+        background-color: #b92b27;
+    }
+    .rate-heading {
+        background-color: #b92b27;
     }
     .right {
         /* background-color: aqua; */

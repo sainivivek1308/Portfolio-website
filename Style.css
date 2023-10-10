@@ -379,12 +379,6 @@ a {
     button a {
         color: black
     }
-    .ratings {
-        background-color: #b92b27;
-    }
-    .rate-heading {
-        background-color: #b92b27;
-    }
     .right {
         /* background-color: aqua; */
         justify-content: center;
